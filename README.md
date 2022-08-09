@@ -21,15 +21,19 @@ mkdir -p davis/src
 cd davis
 catkin config --init --mkdirs --extend /opt/ros/melodic --merge-devel --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
-5.Clone the catkin_simple package (https://github.com/catkin/catkin_simple), which will be used to build the DVS/DAVIS driver packages:
+5.Clone or download the catkin_simple package (https://github.com/catkin/catkin_simple), which will be used to build the DVS/DAVIS driver packages:
 ```
 cd src
+# Cloning
 git clone https://github.com/catkin/catkin_simple.git
+# or Downloading as ZIP file
 ```
 
-6.Clone this(rpg_dvs_ros) repository:
+6.Clone or download this(rpg_dvs_ros) repository:
 ```
+# Cloning
 git clone https://github.com/uzh-rpg/rpg_dvs_ros.git
+# or Downloading as ZIP file
 ```
 7.Build the packages:
 ```
