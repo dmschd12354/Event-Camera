@@ -27,7 +27,7 @@ cd src
 git clone https://github.com/catkin/catkin_simple.git
 ```
 
-6.Clone this repository:
+6.Clone this(rpg_dvs_ros) repository:
 ```
 git clone https://github.com/uzh-rpg/rpg_dvs_ros.git
 ```
