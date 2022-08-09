@@ -21,6 +21,7 @@ Then, in another terminal run the visualizer node:
 
 	roslaunch dvs_displayer display_monocular.launch
 
-In another terminal open the dynamic reconfigure and play around with the parameters in the window named `dvs_displayer_one`
+In another terminal open the run:
 
-	rosrun rqt_reconfigure rqt_reconfigure
+	rqt_image_view
+to see 'raw_events' topic.
