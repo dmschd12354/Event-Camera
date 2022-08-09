@@ -1,5 +1,7 @@
 # Event-Camera
 
+#### Clone this repository under 'src'.
+
 ## Driver Installation
 
 1.Install ROS dependencies:
