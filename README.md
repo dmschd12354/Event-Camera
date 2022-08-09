@@ -45,7 +45,7 @@ source ~/davis/devel/setup.bash
 # iii. Then, launch the example:
 roslaunch dvs_renderer davis_mono.launch
 ```
-9.If you do not have a DAVIS, you can still use this driver to read recorded files, such as those of The Event Camera Dataset and Simulator. Example:
+9.If you do not have a DAVIS, you can still use this driver to read recorded files(rosbag), such as those of The Event Camera Dataset and Simulator. Example:
 ```
 # i. Download a squence of the dataset, such as slider_depth.bag
 # ii. Open a terminal and launch the roscore:
