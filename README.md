@@ -38,7 +38,7 @@ catkin build davis_ros_driver
 
 8.You can test the installation by running a provided launch file. It starts the driver (DVS or DAVIS) and the renderer (an image viewer).
 ```
-  # i. First, build the renderer:
+# i. First, build the renderer:
 catkin build dvs_renderer
 # ii. Set up the environment:
 source ~/davis/devel/setup.bash
@@ -47,11 +47,11 @@ roslaunch dvs_renderer davis_mono.launch
 ```
 9.If you do not have a DAVIS, you can still use this driver to read recorded files, such as those of The Event Camera Dataset and Simulator. Example:
 ```
-  # i. Download a squence of the dataset, such as slider_depth.bag
-  # ii. Open a terminal and launch the roscore:
-	roscore
-	# iii. In another terminal, play the bag:
-	rosbag play -l path-to-file/slider_depth.bag
-	# iv. In another terminal, launch the DVS/DAVIS renderer:
-	roslaunch dvs_renderer renderer_mono.launch 
+# i. Download a squence of the dataset, such as slider_depth.bag
+# ii. Open a terminal and launch the roscore:
+roscore
+# iii. In another terminal, play the bag:
+rosbag play -l path-to-file/slider_depth.bag
+# iv. In another terminal, launch the DVS/DAVIS renderer:
+roslaunch dvs_renderer renderer_mono.launch 
 ```
