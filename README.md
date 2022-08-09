@@ -39,11 +39,11 @@ catkin build davis_ros_driver
 8.You can test the installation by running a provided launch file. It starts the driver (DVS or DAVIS) and the renderer (an image viewer).
 ```
   # i. First, build the renderer:
-	catkin build dvs_renderer
-	# ii. Set up the environment:
-	source ~/davis/devel/setup.bash
-	# iii. Then, launch the example:
-	roslaunch dvs_renderer davis_mono.launch
+catkin build dvs_renderer
+# ii. Set up the environment:
+source ~/davis/devel/setup.bash
+# iii. Then, launch the example:
+roslaunch dvs_renderer davis_mono.launch
 ```
 9.If you do not have a DAVIS, you can still use this driver to read recorded files, such as those of The Event Camera Dataset and Simulator. Example:
 ```
