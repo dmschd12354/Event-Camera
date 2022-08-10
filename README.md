@@ -1,6 +1,6 @@
 # Event-Camera
 
-#### Clone this repository under 'src'.
+#### Clone this repository under 'src' in the catkin workspace.
 
 ## Driver Installation
 
